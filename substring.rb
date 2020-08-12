@@ -1,4 +1,3 @@
-dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 def substrings(words, dictionary)
  substring = Hash.new
@@ -18,6 +17,9 @@ def substrings(words, dictionary)
    return substring
  end
 end
+
+
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 
 puts "Check for words in dictionary"
